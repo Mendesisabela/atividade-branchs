@@ -8,14 +8,16 @@
     <title> Atividade Branch </title>
 </head>
 <body>
-  
-  <p>Obrigada pela atenção!</p>
 
-  <img src="img/indo muito ali.png" alt="">
-    <form action="/action_page.php">
-        <label for="fname">Primeiro Nome</label><br>
-        <input type="text" id="fname" value="Mendes"><br><br>
-        <button class="glow-on-hover" type="button">CLIQUE AQUI!!</button>
+  <h1>Tipos de Forms</h1>
+
+  <form>
+      <label for="name">Primeiro nome:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Sobrenome:</label><br>
+      <input type="text" id="lname" name="lname">
+    </form>
+  
     <form>
         <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
         <label for="vehicle1">Eu tenho uma bicicleta</label><br>
@@ -23,16 +25,11 @@
         <label for="vehicle2"> Eu tenho um carro</label><br>
         <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
         <label for="vehicle3"> Eu tenho um barco</label>
-    
-    <h1>Tipos de Forms</h1>
-
-    <form>
-        <label for="name">Primeiro nome:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Sobrenome:</label><br>
-        <input type="text" id="lname" name="lname">
-      </form>
+  </form>
+        
 <form>
+
+
     <input type="radio" id="html" name="fav_language" value="HTML">
     <label for="html">HTML</label><br>
     <input type="radio" id="css" name="fav_language" value="CSS">
@@ -40,6 +37,15 @@
     <input type="radio" id="javascript" name="fav_language" value="JavaScript">
     <label for="javascript">JavaScript</label>
   </form>
+
+  <br/>
+  <form action="/action_page.php">
+    <label for="fname">Meu Nome</label><br>
+    <input type="text" id="fname" value="Mendes"><br><br>
+    <button class="glow-on-hover" type="button">CLIQUE AQUI!!</button>
+</form>
+
+  <img src="img/indo muito ali.png" alt="">
   
 </body>
 </html>
